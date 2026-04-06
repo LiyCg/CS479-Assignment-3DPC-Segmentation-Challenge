@@ -1,23 +1,12 @@
----
-hide:
-  - navigation
----
 
-# CS479: Machine Learning for 3D Data
-
-<h3><b>
-<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2026
-</b></h3>
 
 ## 3D Point Cloud Segmentation Challenge
 
-^^**Mid-Term Evaluation Submission Due**^^: ==April 26 (Sunday), 23:59 KST==  
-^^**Final Submission Due**^^: ==May 9 (Saturday), 23:59 KST==  
-^^**Where to submit**^^: ==KLMS==  
+**Mid-Term Evaluation Submission Due**: April 26 (Sunday), 23:59 KST  
+**Final Submission Due**: May 9 (Saturday), 23:59 KST  
+**Where to submit**: KLMS  
 
-![Dataset](assets/nubjuki.png)
-
-[Introduction Slides]({{links.3dpc_seg_slides}}){:target="_blank" .md-button}
+![Dataset](assets/figures/nubjuki.png)
 
 
 ## Environment Setup
@@ -82,9 +71,9 @@ We provide the dataset format and a fixed evaluator. Your job is to improve the 
 
 You may freely change the model architecture, training strategy, and `model.py`, as long as the interface above remains compatible. You can also generate additional codes, but note that your code will be evaluated using the provided evaluator, simply by replacing `evaluate.py`, so you should not modify the evaluator.
 
-**==Important Notes==**
+**Important Notes**
 
-^^PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to properly cite any existing code, models, or papers used in the project in your write-up, will result in a zero score.^^
+PLEASE READ THE FOLLOWING CAREFULLY! Any violation of the rules, or failure to properly cite any existing code, models, or papers used in the project in your write-up, will result in a zero score.
 
 ### What You CANNOT Do
 
@@ -111,9 +100,9 @@ You may freely change the model architecture, training strategy, and `model.py`,
 
 ### Dataset and Base Code
 
-You are required to use the MultiScan benchmark dataset for training and evaluation.
+You are required to use the **MultiScan benchmark dataset** for training and evaluation.
 
-![Dataset](multiscan.png)
+<!-- ![Dataset](multiscan.png) -->
 
 Please follow the instructions in the original GitHub repository and download the benchmark dataset:
 
