@@ -94,18 +94,16 @@ You may freely change the model architecture, training strategy, and `model.py`,
 
 ## MultiScan Dataset
 
-You are required to use the **MultiScan benchmark dataset** for training.
+You are required to use the **MultiScan benchmark dataset** for training. We will use Object Instance Segmentation benchmark dataset.
 
 **Please note that downloading the dataset may take some time, so we recommend preparing it as early as possible.**
 
-We also provide an additional Google Drive link with reference 3D objects in `.glb` format:
+We provide Google Drive link with reference 3D objects in `.glb` format:
 [Link]({https://drive.google.com/drive/folders/1guo68JlVkeqAzX7nR3DOfOB6SfhL3XC9?usp=sharing})
 
 
-Note that t
+You can also download the MultiScan benchmark dataset by following the instructions in the original GitHub repository:
 [MultiScan Dataset README](https://github.com/smartscenes/multiscan/blob/main/dataset/README.md)
-
-- Object Instance Segmentation
 
 
 ## Generation Pipeline for Test Data
