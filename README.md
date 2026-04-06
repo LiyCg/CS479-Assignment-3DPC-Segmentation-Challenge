@@ -170,9 +170,9 @@ We will evaluate the generated test data using two metrics: 1) instance segmenta
 
 - Final instance score:
 
-  $$
-  \text{Instance Score} = 0.25 \times F1_{0.25} + 0.5 \times F1_{0.50:0.90:0.05} + 0.25 \times F1_{0.95}
-  $$
+```math
+\text{Instance Score} = 0.25 \times F1_{0.25} + 0.5 \times F1_{0.50:0.90:0.05} + 0.25 \times F1_{0.95}
+```
 
 2) Semantic foreground quality is measured using `semantic_object_mIoU`:
 
