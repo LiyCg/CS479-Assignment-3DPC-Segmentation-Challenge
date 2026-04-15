@@ -1,0 +1,8 @@
+# Ignore everything in data/
+*
+
+# But keep .png images
+!*.png
+
+# Keep this .gitignore
+!.gitignore
