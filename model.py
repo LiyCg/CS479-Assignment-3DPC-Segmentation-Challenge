@@ -7,6 +7,17 @@ class DummyModel(nn.Module):
     """
     Instance segmentation baseline model.
     """
+    
+    # ! [CHANGE HERE]
+    def __init__(self, cfg):
+        super().__init__()
+        
+        self.in_channels = cfg.input_channel
+        self.conv = torch.nn.Conv1d(self.in_channels, 1, 1)
+
+    # ! [CHANGE HERE]    
+    def forward(self, input):
+        return self.conv(input)
 
 
 def initialize_model(
