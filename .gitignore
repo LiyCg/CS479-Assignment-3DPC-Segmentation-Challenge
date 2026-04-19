@@ -1,0 +1,15 @@
+# Third-party references (not part of submission)
+PointGroup/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Checkpoints
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
